@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Estructura Módulo 1 Sybrava</title>
+
+		<link rel="stylesheet" href="./css/styles99.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<!-- Scripts -->
+		<script src="./js/jquery-3.2.1.min.js"></script>
+		<script src="./js/functions.js"></script>
+	</head>
+	<body class="ancho">
+		<div class="container">
+			<img
+				src="./imagenes/portada99.webp"
+				alt="Portada"
+				class="cover-image" />
+
+			<a href="./index.html" class="boton-home"></a>
+			<a href="./index98.html" class="boton-atras"></a>
+			<a href="./index100.html" class="boton-next"></a>
+
+			<!-- modal  -->
+			<div class="openModal"></div>
+			<div class="modal" style="display: none; height: 100%">
+				<img src="./imagenes/pop18.webp" class="ancho" id="image" />
+				<div class="closeModal"></div>
+
+				<div class="abrir2" id="abrir2">
+					<img class="menu2" src="./imagenes/b-10.png" alt="" />
+					<div class="aproli" id="aproli1"></div>
+				</div>
+				<div class="boton-1"></div>
+
+				<div class="abrir3" id="abrir3">
+					<img class="menu3" src="./imagenes/b-11.png" alt="" />
+					<div class="aproli3" id="aproli3"></div>
+				</div>
+				<div class="boton-3"></div>
+
+				<div class="abrir4" id="abrir4">
+					<img class="menu4" src="./imagenes/b-12.png" alt="" />
+					<div class="aproli4" id="aproli4"></div>
+				</div>
+				<div class="boton-4"></div>
+
+				<div class="abrir5" id="abrir5">
+					<img class="menu5" src="./imagenes/b-13.png" alt="" />
+					<div class="aproli5" id="aproli4"></div>
+				</div>
+				<div class="boton-5"></div>
+
+				<div class="abrir6" id="abrir6">
+					<img class="menu6" src="./imagenes/b-12.png" alt="" />
+					<div class="aproli6" id="aproli4"></div>
+				</div>
+				<div class="boton-6"></div>
+			</div>
+			<!-- modal  -->
+
+			<div class="openModal1"></div>
+			<!-- modal -->
+			<div class="modal1" style="display: none; height: 100%">
+				<img src="./imagenes/pop-24.webp" class="ancho" id="image" />
+				<div class="closeModal1"></div>
+
+				<!-- video -->
+				<div class="play-boton-10"></div>
+				<video class="reproduc" id="reproduc" controls autoplay muted>
+					<source src="" type="video/mp4" />
+				</video>
+				<div class="video-2" id="video"></div>
+	
+				<div class="boton-play">
+					<img id="play-video" src="./imagenes/boton-play1.png" alt="">
+				</div>
+			</div>
+
+			<div class="openModal2"></div>
+			<!-- modal -->
+			<div class="modal2" style="display: none; height: 100%">
+				<img src="./imagenes/pop-242.webp" class="ancho" id="image" />
+				<div class="closeModal2"></div>
+			</div>
+
+			<div class="openModal3"></div>
+			<!-- modal -->
+			<div class="modal3" style="display: none; height: 100%">
+				<img src="./imagenes/pop-243.webp" class="ancho" id="image" />
+				<div class="closeModal3"></div>
+			</div>
+
+			<div
+				class="cursor circle animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/aros.png" alt="" />
+			</div>
+			<div
+				class="cursor1 circle animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/aro1.png" alt="" />
+			</div>
+			<div
+				class="cursor2 circle animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/aro2.png" alt="" />
+			</div>
+
+			<div
+				class="cursor3 circle animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/aro3.png" alt="" />
+			</div>
+
+			<div class="vutom-col"></div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="./js/script99.js"></script>
+		<script src="./js/helpers.js"></script>
+		<script>
+			$(document).ready(function () {
+				const criterias = [
+					{ name: 'slide99-1', selector: '.cursor' },
+					{ name: 'slide99-2', selector: '.cursor1' },
+					{ name: 'slide99-3', selector: '.cursor2' },
+					{ name: 'slide99-4', selector: '.cursor3' },
+				]
+
+				handleSlide(criterias)
+				handleValidateCriterias(criterias)
+			})
+		</script>
+	</body>
+</html>

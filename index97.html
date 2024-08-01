@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Estructura Módulo 1 Sybrava</title>
+
+		<link rel="stylesheet" href="./css/styles97.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<!-- Scripts -->
+		<script src="./js/jquery-3.2.1.min.js"></script>
+		<script src="./js/functions.js"></script>
+	</head>
+	<body class="ancho">
+		<div class="container">
+			<img
+				src="./imagenes/portada97.webp"
+				alt="Portada"
+				class="cover-image" />
+
+			<a href="./index.html" class="boton-home"></a>
+			<a href="./index96.html" class="boton-atras"></a>
+			<a href="./index98.html" class="boton-next"></a>
+
+			<div class="openModal"></div>
+			<!-- modal -->
+			<div class="modal" style="display: none; height: 100%">
+				<img src="./imagenes/pop11.webp" class="ancho" id="image" />
+				<div class="closeModal"></div>
+			</div>
+
+			<div class="openModal1"></div>
+			<!-- modal -->
+			<div class="modal1" style="display: none; height: 100%">
+				<img src="./imagenes/pop112.webp" class="ancho" id="image" />
+				<div class="closeModal1"></div>
+			</div>
+
+			<div class="openModal2"></div>
+			<!-- modal -->
+			<div class="modal2" style="display: none; height: 100%">
+				<img src="./imagenes/pop113.webp" class="ancho" id="image" />
+				<div class="closeModal2"></div>
+			</div>
+
+			<div class="openModal3"></div>
+			<!-- modal -->
+			<div class="modal3" style="display: none; height: 100%">
+				<img src="./imagenes/pop114.webp" class="ancho" id="image" />
+				<div class="closeModal3"></div>
+			</div>
+
+			<div class="openModal4"></div>
+			<!-- modal -->
+			<div class="modal4" style="display: none; height: 100%">
+				<img src="./imagenes/pop115.webp" class="ancho" id="image" />
+				<div class="closeModal4"></div>
+			</div>
+
+			<div
+				class="cursor animate__animated animate__pulse animate__infinite">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<img src="./imagenes/quilomocro.png" alt="" />
+			</div>
+
+			<div
+				class="cursor1 animate__animated animate__pulse animate__infinite">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<img src="./imagenes/vldl.png" alt="" />
+			</div>
+			
+			<div
+				class="cursor2 animate__animated animate__pulse animate__infinite">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<img src="./imagenes/ldl.png" alt="" />
+			</div>
+
+			<div
+				class="cursor3 animate__animated animate__pulse animate__infinite">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<img src="./imagenes/ldl1.png" alt="" />
+			</div>
+
+			<div
+				class="cursor4 animate__animated animate__pulse animate__infinite">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<img src="./imagenes/hdl.png" alt="" />
+			</div>
+
+			<div class="vutom-col"></div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="./js/script97.js"></script>
+		<script src="./js/helpers.js"></script>
+		<script>
+			$(document).ready(function () {
+				const criterias = [
+					{ name: 'slide97-1', selector: '.cursor' },
+					{ name: 'slide97-2', selector: '.cursor1' },
+					{ name: 'slide97-3', selector: '.cursor2' },
+					{ name: 'slide97-4', selector: '.cursor3' },
+					{ name: 'slide97-5', selector: '.cursor4' },
+				]
+
+				handleSlide(criterias)
+				handleValidateCriterias(criterias)
+			})
+		</script>
+	</body>
+</html>
