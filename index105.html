@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Juego sesión 2 Sybrava</title>
+
+		<link rel="stylesheet" href="./css/styles105.css" />
+		<!-- Scripts -->
+		<script src="./js/jquery-3.2.1.min.js"></script>
+		<script src="./js/functions.js"></script>
+	</head>
+	<body class="ancho">
+		<div class="container">
+			<img
+				src="./imagenes/portada105.webp"
+				alt="Portada"
+				class="cover-image" />
+
+			<a class="boton-next"></a>
+		</div>
+
+		<!-- Scripts -->
+		<script src="./js/scripts105.js"></script>
+		<script>
+			let camplay = localStorage.getItem('bloqueo')
+			let intentos = localStorage.getItem('intentos')
+			if (camplay) {
+				if (new Date(camplay).getDay() < new Date().getDay()) {
+					$('.boton-next').on('click', () => {
+					window.location.href = './index106.html'
+				})
+				}
+			} else {
+				$('.boton-next').on('click', () => {
+					window.location.href = './index106.html'
+				})
+			}
+			if (!intentos) {
+				localStorage.setItem('intentos', 3)
+			} else if (
+				intentos &&
+				new Date(camplay).getDay() < new Date().getDay()
+			) {
+				localStorage.setItem('intentos', 3)
+			}
+		</script>
+	</body>
+</html>

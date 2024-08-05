@@ -1,0 +1,414 @@
+/* modal  */
+.openModal {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    width: 30.8%;
+    height: 10%;
+    left: 5.2%;
+    top: 34.4%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 64px;
+}
+
+.modal img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 300;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 10%;
+	right: 7%;
+	cursor: pointer;
+}
+
+/* modal 1 */
+.openModal1 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    width: 30.8%;
+    height: 10%;
+    left: 5.2%;
+    top: 50.1%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 64px;
+}
+
+.modal1 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 300;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal1 {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 10%;
+	right: 7%;
+	cursor: pointer;
+}
+
+/* modal 2 */
+.openModal2 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    width: 30.8%;
+    height: 10%;
+    left: 5.2%;
+    top: 65.4%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 64px;
+}
+
+.modal2 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 300;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal2 {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 10%;
+	right: 7%;
+	cursor: pointer;
+}
+
+/* modal 3 */
+.openModal3 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    width: 30.8%;
+    height: 10%;
+    left: 5.2%;
+    top: 81.1%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 64px;
+}
+
+.modal3 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 300;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal3 {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 10%;
+	right: 7%;
+	cursor: pointer;
+}
+
+/* modal 4 */
+.openModal4 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    width: 30.8%;
+    height: 10%;
+    right: 5.2%;
+    top: 34.3%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 64px;
+}
+
+.modal4 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 300;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal4 {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 10%;
+	right: 7%;
+	cursor: pointer;
+}
+
+/* modal 5 */
+.openModal5 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    width: 30.8%;
+    height: 10%;
+    right: 5.2%;
+    top: 49.8%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 64px;
+}
+
+.modal5 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 300;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal5 {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 10%;
+	right: 7%;
+	cursor: pointer;
+}
+
+/* modal 6 */
+.openModal6 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    width: 30.8%;
+    height: 10%;
+    right: 5.2%;
+    top: 65.6%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 64px;
+}
+
+.modal6 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 300;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal6 {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 10%;
+	right: 7%;
+	cursor: pointer;
+}
+
+/* modal 7 */
+.openModal7 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    width: 30.8%;
+    height: 10%;
+    right: 5.2%;
+    top: 81.2%;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 64px;
+}
+
+.modal7 img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 300;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModal7 {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 10%;
+	right: 7%;
+	cursor: pointer;
+}
+
+/* modal  */
+.modalerror img {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 300;
+	display: block;
+	left: 0%;
+	top: 0%;
+}
+
+.closeModalerror {
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	z-index: 1000;
+	top: 19%;
+    right: 12%;
+	cursor: pointer;
+}
+
+.pregunta1 {
+	position: absolute;
+	width: 80.3%;
+    left: 10%;
+    top: 35.3%;
+	z-index: 300;
+}
+
+.pregunta1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.pregunta2 {
+	position: absolute;
+	width: 80.3%;
+    left: 10%;
+    top: 35.3%;
+	z-index: 300;
+}
+
+.pregunta2 img {
+	width: 100%;
+	height: 100%;
+}
+
+.pregunta3 {
+	position: absolute;
+    width: 80.3%;
+    left: 10%;
+    top: 35.1%;
+	z-index: 300;
+}
+
+.pregunta3 img {
+	width: 100%;
+	height: 100%;
+}
+
+.pregunta4 {
+	position: absolute;
+    width: 19.5%;
+    left: 10%;
+    top: 35.1%;
+	z-index: 300;
+}
+
+.pregunta4 img {
+	width: 100%;
+	height: 100%;
+}
+
+.pregunta5 {
+	position: absolute;
+	width: 80.3%;
+    left: 10%;
+    top: 35.3%;
+	z-index: 300;
+}
+
+.pregunta5 img {
+	width: 100%;
+	height: 100%;
+}
+
+.pregunta6 {
+	position: absolute;
+	width: 80.3%;
+    left: 10%;
+    top: 35.3%;
+	z-index: 300;
+}
+
+.pregunta6 img {
+	width: 100%;
+	height: 100%;
+}
+
+.pregunta7 {
+	position: absolute;
+	width: 80.3%;
+    left: 10%;
+    top: 35.3%;
+	z-index: 300;
+}
+
+.pregunta7 img {
+	width: 100%;
+	height: 100%;
+}
+
+.pregunta8 {
+	position: absolute;
+	width: 80.3%;
+    left: 10%;
+    top: 35.3%;
+	z-index: 300;
+}
+
+.pregunta8 img {
+	width: 100%;
+	height: 100%;
+}

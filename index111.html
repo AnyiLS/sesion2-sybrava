@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Juego sesión 2 Sybrava</title>
+
+		<link rel="stylesheet" href="./css/styles111.css" />
+		<!-- Scripts -->
+		<script src="./js/jquery-3.2.1.min.js"></script>
+		<script src="./js/functions.js"></script>
+	</head>
+	<body class="ancho">
+		<div class="container">
+			<img
+				src="./imagenes/losiento.webp"
+				alt="Portada"
+				class="cover-image" />
+
+			<a  class="boton-next"></a>
+		</div>
+
+		<!-- Scripts -->
+		<script src="./js/scripts105.js"></script>
+		<script>
+			let intentos = localStorage.getItem('intentos')
+			if(intentos === '0') {
+				$('.boton-next').on('click', () => {
+					window.location.href = './index.html'
+				})
+			} else {
+				$('.boton-next').on('click', () => {
+					window.location.href = './index105.html'
+				})
+			}
+		</script>
+	</body>
+</html>

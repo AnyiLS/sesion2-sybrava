@@ -1,0 +1,271 @@
+@import './variables.css';
+@import './classes.css';
+
+body {
+	margin: 0;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--black-color);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.container .cover-image {
+	width: auto;
+	height: 100vh;
+}
+
+/* Personajes */
+.personaje {
+	position: absolute;
+	width: 14.7%;
+	left: 41.4%;
+	top: 28.2%;
+	z-index: 1;
+}
+
+.personaje img {
+	width: 100%;
+	height: 100%;
+}
+
+.personaje1 {
+	position: absolute;
+	width: 100%;
+    left: 0%;
+    top: 0.9%;
+    z-index: 0;
+    height: 99.1%;
+}
+
+.personaje1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.personaje2 {
+	position: absolute;
+    width: 100%;
+    left: 0%;
+    top: -0.1%;
+    z-index: 0;
+    height: 100.1%;
+}
+
+.personaje2 img {
+	width: 100%;
+	height: 100%;
+}
+
+.personaje3 {
+	position: absolute;
+	width: 100%;
+	left: -0.1%;
+	top: -0.3%;
+	z-index: 0;
+}
+
+.personaje3 img {
+	width: 100%;
+	height: 100%;
+}
+
+.personaje4 {
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: -0.1%;
+	z-index: 0;
+}
+
+.personaje4 img {
+	width: 100%;
+	height: 100%;
+}
+
+.personaje5 {
+	position: absolute;
+	width: 99.4%;
+	right: 0%;
+	top: -0.3%;
+	z-index: 0;
+}
+
+.personaje5 img {
+	width: 100%;
+	height: 100%;
+}
+
+.personaje6 {
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: -0.3%;
+	z-index: 0;
+}
+
+.personaje6 img {
+	width: 100%;
+	height: 100%;
+}
+
+.personaje7 {
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: -0.3%;
+	z-index: 0;
+}
+
+.personaje7 img {
+	width: 100%;
+	height: 100%;
+}
+
+.personaje8 {
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: -1.7%;
+	z-index: 0;
+}
+
+.personaje8 img {
+	width: 100%;
+	height: 100%;
+}
+
+.preguntas {
+	position: absolute;
+	width: 89.7%;
+	left: 5.3%;
+	top: 33.4%;
+	z-index: 1;
+}
+
+.preguntas img {
+	width: 100%;
+	height: 100%;
+}
+
+.puntaje {
+	position: absolute;
+	width: 20.1%;
+	left: 39.8%;
+	top: 83.3%;
+	z-index: 4;
+}
+
+.puntaje img {
+	width: 100%;
+	height: 100%;
+}
+
+/* personajes */
+
+@keyframes fullpart {
+	to {
+		height: 100%;
+	}
+
+	from {
+		height: 0px;
+	}
+}
+
+.boton-next {
+	position: absolute;
+	width: 5%;
+	right: 1%;
+	top: 46%;
+	cursor: pointer;
+}
+.boton-next img {
+	width: 100%;
+	height: 100%;
+}
+
+.boton-next1 {
+	position: absolute;
+	width: 5%;
+	right: 1%;
+	top: 48%;
+}
+.boton-next1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.boton-next2 {
+	position: absolute;
+	width: 5%;
+	right: 10%;
+	top: 48%;
+}
+.boton-next2 img {
+	width: 100%;
+	height: 100%;
+}
+
+.boton-next6 {
+	position: absolute;
+	width: 5%;
+	right: 1%;
+	top: 86%;
+}
+.boton-next6 img {
+	width: 100%;
+	height: 100%;
+}
+
+/* Responsive */
+@media (max-width: 1365px) and (min-height: 768px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: auto;
+		height: 100vh;
+	}
+}
+
+@media (max-height: 767px) {
+	.container {
+		width: auto;
+		height: 100vh;
+	}
+}
+
+@media (min-height: 625px) and (max-height: 1280px) and (max-width: 1024px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: 100vw;
+		height: auto;
+	}
+}
+
+@media (max-height: 624px) and (max-width: 767px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: 100vw;
+		height: auto;
+	}
+}
