@@ -1,0 +1,14 @@
+@font-face {
+	font-family: VoltaModernDisplay-55Roman, 'Volta Modern Display';
+	src: url('../fonts/VoltaModernDisplay-55Roman.otf');
+}
+
+@font-face {
+	font-family: VoltaModernDisplay-65Medium, 'Volta Modern Display';
+	src: url('../fonts/VoltaModernDisplay-65Medium.otf');
+}
+
+@font-face {
+	font-family: VoltaModernDisplay-75Bold, 'Volta Modern Display';
+	src: url('../fonts/VoltaModernDisplay-75Bold.otf');
+}
