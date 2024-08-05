@@ -29,7 +29,8 @@ body {
     height: 17%;
     top: 63.6%;
     right: 34.8%;
-    border-radius: 50px
+    border-radius: 50px;
+	cursor: pointer;
 }
 
 
