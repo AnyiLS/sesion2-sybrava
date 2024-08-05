@@ -4,11 +4,11 @@
 }
 
 @font-face {
-	font-family: VoltaModernDisplay-65Medium, 'Volta Modern Display';
+	font-family: 'Volta Modern Medium';
 	src: url('../fonts/VoltaModernDisplay-65Medium.otf');
 }
 
 @font-face {
-	font-family: VoltaModernDisplay-75Bold, 'Volta Modern Display';
+	font-family: 'Volta Modern Bold';
 	src: url('../fonts/VoltaModernDisplay-75Bold.otf');
 }
