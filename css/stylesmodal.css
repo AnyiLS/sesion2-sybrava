@@ -315,6 +315,7 @@
     left: 10%;
     top: 35.3%;
 	z-index: 300;
+	cursor: pointer;
 }
 
 .pregunta1 img {
@@ -328,6 +329,7 @@
     left: 10%;
     top: 35.3%;
 	z-index: 300;
+	cursor: pointer;
 }
 
 .pregunta2 img {
@@ -341,6 +343,7 @@
     left: 10%;
     top: 35.1%;
 	z-index: 300;
+	cursor: pointer;
 }
 
 .pregunta3 img {
@@ -354,6 +357,7 @@
     left: 10%;
     top: 35.1%;
 	z-index: 300;
+	cursor: pointer;
 }
 
 .pregunta4 img {
@@ -367,6 +371,7 @@
     left: 10%;
     top: 35.3%;
 	z-index: 300;
+	cursor: pointer;
 }
 
 .pregunta5 img {
@@ -380,6 +385,7 @@
     left: 10%;
     top: 35.3%;
 	z-index: 300;
+	cursor: pointer;
 }
 
 .pregunta6 img {
@@ -393,6 +399,7 @@
     left: 10%;
     top: 35.3%;
 	z-index: 300;
+	cursor: pointer;
 }
 
 .pregunta7 img {
@@ -406,6 +413,7 @@
     left: 10%;
     top: 35.3%;
 	z-index: 300;
+	cursor: pointer;
 }
 
 .pregunta8 img {
