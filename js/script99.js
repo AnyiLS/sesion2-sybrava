@@ -1,5 +1,6 @@
 $(document).ready(function () {
 	$('.boton-1').on('click', () => {
+		$('.abrir2').css('display', 'block')
 		$('.abrir3').css('display', 'none');
 		$('.abrir4').css('display', 'none');
 		$('.abrir5').css('display', 'none');
@@ -9,16 +10,17 @@ $(document).ready(function () {
 	})
 
 	$('.aproli').on('click', () => {
-		$('.abrir3').css('display', 'block');
-		$('.abrir4').css('display', 'block');
-		$('.abrir5').css('display', 'block');
-		$('.abrir6').css('display', 'block');
+		$('.abrir3').css('display', 'none');
+		$('.abrir4').css('display', 'none');
+		$('.abrir5').css('display', 'none');
+		$('.abrir6').css('display', 'none');
 		$('.menu2').css('display', 'none');
 		$('.aproli').css('display', 'none');
 	})
 
 	/**------------ */
 	$('.boton-3').on('click', () => {
+		$('.abrir3').css('display', 'block')
 		$('.abrir2').css('display', 'none');
 		$('.abrir4').css('display', 'none');
 		$('.abrir6').css('display', 'none');
@@ -28,16 +30,17 @@ $(document).ready(function () {
 	})
 
 	$('.aproli3').on('click', () => {
-		$('.abrir2').css('display', 'block');
-		$('.abrir4').css('display', 'block');
-		$('.abrir5').css('display', 'block');
-		$('.abrir6').css('display', 'block');
+		$('.abrir2').css('display', 'none');
+		$('.abrir4').css('display', 'none');
+		$('.abrir5').css('display', 'none');
+		$('.abrir6').css('display', 'none');
 		$('.menu3').css('display', 'none');
 		$('.aproli3').css('display', 'none');
 	})
 
 	/**------------ */
 	$('.boton-4').on('click', () => {
+		$('.abrir4').css('display', 'block')
 		$('.abrir2').css('display', 'none');
 		$('.abrir3').css('display', 'none');
 		$('.abrir5').css('display', 'none');
@@ -47,16 +50,17 @@ $(document).ready(function () {
 	})
 
 	$('.aproli4').on('click', () => {
-		$('.abrir2').css('display', 'block');
-		$('.abrir3').css('display', 'block');
-		$('.abrir5').css('display', 'block');
-		$('.abrir6').css('display', 'block');
+		$('.abrir2').css('display', 'none');
+		$('.abrir3').css('display', 'none');
+		$('.abrir5').css('display', 'none');
+		$('.abrir6').css('display', 'none');
 		$('.menu4').css('display', 'none');
 		$('.aproli4').css('display', 'none');
 	})
 
 	/**------------ */
 	$('.boton-5').on('click', () => {
+		$('.abrir5').css('display', 'block')
 		$('.abrir2').css('display', 'none');
 		$('.abrir4').css('display', 'none');
 		$('.abrir3').css('display', 'none');
@@ -67,17 +71,19 @@ $(document).ready(function () {
 	})
 
 	$('.aproli5').on('click', () => {
-		$('.abrir2').css('display', 'block');
-		$('.abrir4').css('display', 'block');
-		$('.abrir3').css('display', 'block');
-		$('.abrir4').css('display', 'block');
-		$('.abrir6').css('display', 'block');
+		$('.abrir2').css('display', 'none');
+		$('.abrir4').css('display', 'none');
+		$('.abrir3').css('display', 'none');
+		$('.abrir4').css('display', 'none');
+		$('.abrir6').css('display', 'none');
 		$('.menu5').css('display', 'none');
 		$('.aproli5').css('display', 'none');
 	})
 
 	/**------------ */
 	$('.boton-6').on('click', () => {
+		$('.abrir6').css('display', 'block')
+		$('.abrir5').css('display', 'none')
 		$('.abrir2').css('display', 'none');
 		$('.abrir4').css('display', 'none');
 		$('.abrir3').css('display', 'none');
@@ -87,10 +93,10 @@ $(document).ready(function () {
 	})
 
 	$('.aproli6').on('click', () => {
-		$('.abrir2').css('display', 'block');
-		$('.abrir4').css('display', 'block');
-		$('.abrir3').css('display', 'block');
-		$('.abrir4').css('display', 'block');
+		$('.abrir2').css('display', 'none');
+		$('.abrir4').css('display', 'none');
+		$('.abrir3').css('display', 'none');
+		$('.abrir4').css('display', 'none');
 		$('.menu6').css('display', 'none');
 		$('.aproli6').css('display', 'none');
 	})

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	$('.boton-1').on('click', () => {
+	$('.boton-1').on('mouseover', () => {
 		$('.abrir3').css('display', 'none');
 		$('.abrir4').css('display', 'none');
 		$('.abrir5').css('display', 'none');
@@ -8,7 +8,7 @@ $(document).ready(function () {
 		$('.aproli').css('display', 'block');
 	})
 
-	$('.aproli').on('click', () => {
+	$('.aproli').on('mouseover', () => {
 		$('.abrir3').css('display', 'block');
 		$('.abrir4').css('display', 'block');
 		$('.abrir5').css('display', 'block');
@@ -18,7 +18,7 @@ $(document).ready(function () {
 	})
 
 	/**------------ */
-	$('.boton-3').on('click', () => {
+	$('.boton-3').on('mouseover', () => {
 		$('.abrir2').css('display', 'none');
 		$('.abrir4').css('display', 'none');
 		$('.abrir6').css('display', 'none');
@@ -27,7 +27,7 @@ $(document).ready(function () {
 		$('.aproli3').css('display', 'block');
 	})
 
-	$('.aproli3').on('click', () => {
+	$('.aproli3').on('mouseover', () => {
 		$('.abrir2').css('display', 'block');
 		$('.abrir4').css('display', 'block');
 		$('.abrir5').css('display', 'block');

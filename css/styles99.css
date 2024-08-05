@@ -283,7 +283,7 @@ body {
 	position: absolute;
 	width: 100%;
 	top: 22.5%;
-    left: -10.8%;
+    left: -28.8%;
 	z-index: 100;
 	cursor: pointer;
 	display: none;
@@ -298,7 +298,7 @@ body {
 	position: absolute;
 	width: 32%;
 	height: 35%;
-	left: 55.2%;
+	left: 67.2%;
 	top: 43.3%;
 	z-index: 300;
 	cursor: pointer;
@@ -310,7 +310,7 @@ body {
 	height: 14%;
 	z-index: 1000;
 	top: 25%;
-    left: 78%;
+    left: 61%;
 	cursor: pointer;
 	display: none;
 }
